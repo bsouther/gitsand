@@ -1,17 +1,21 @@
 package com.prismhr.gitsand
 
 object Hi{
+
   /**
    * Fancy hello, world program.
    */
   def main(args:Array[String]){
-    val recip:String = {
+
+
+    val recip:Array[String] = {
       if(args.size < 1 || "".equals(args(0).trim())){
-        "World"
+        Array[String]("World")
       }else{
-        args(0)
+        args
       }
     }
-    println("Hello, " + recip)
+
+    recip.foreach( (name) => { println( "Hello, " + name + ".") }  );
   }
 }
