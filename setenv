@@ -1,0 +1,9 @@
+base=`pwd`
+cp=$base/src
+cp=$cp:$base
+export CLASSPATH=$cp
+export BASE=$base
+
+alias ss='cd $BASE/src/com/prismhr/gitsand'
+alias base='cd $BASE'
+
