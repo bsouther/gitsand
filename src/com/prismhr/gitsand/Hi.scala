@@ -2,8 +2,6 @@ package com.prismhr.gitsand
 
 object Hi {
   def main(args:Array[String]):Unit = {
-    args.map(a => {
-      "Hola, " + a
-    }).foreach(println);
+    args.foreach(a => println("Hola, " + a) )
   }
 }
