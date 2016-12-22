@@ -4,10 +4,9 @@ package com.prismhr.gitsand
 object Hi {
 
 
-  println("initialzing")
-
-
-
+  /**
+   * Entry point function.
+   */
   def main(args:Array[String]):Unit = {
     args.foreach(a => println("Hola, " + a + ". (Scala Edition)") )
   }
