@@ -1,6 +1,8 @@
 base=`pwd`
 cp=$base/src
 cp=$cp:$base
+cp=$cp:$base/classes
+
 export CLASSPATH=$cp
 export BASE=$base
 
