@@ -1,4 +1,4 @@
-# gitsand
+# GITSAND
 Place for testing git commands
 
 
